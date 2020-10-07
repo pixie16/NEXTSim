@@ -284,8 +284,6 @@ bool nDetRunAction::processDetector(nDetDetector *det, int detNum)
 	if (cmL->getNumDetected() > 0 && cmR->getNumDetected() > 0)
 		evtData.goodEvent = true;
 
-	
-
 	// Compute the photon detection efficiency
 	outData.nPhotonsTot = stacking->GetNumPhotonsProduced();
 	if (outData.nPhotonsTot > 0)
@@ -357,9 +355,6 @@ bool nDetRunAction::processDetector(nDetDetector *det, int detNum)
 	debugData.pulseMax[1] = pmtR->getMaximum();
 	debugData.pulseMaxTime[1] = pmtR->getMaximumTime();
 	debugData.pulseArrival[1] = pmtR->getWeightedPhotonArrivalTime();
-
-
-
 
 	// Print the digitized traces.
 	if (pmtL->getPrintTrace() || pmtR->getPrintTrace())
@@ -443,6 +438,8 @@ bool nDetRunAction::processDetector(nDetDetector *det, int detNum)
 
 	// Compute "bar" variables.
 	outData.barTOF = (debugData.pulsePhase[0] + debugData.pulsePhase[1]) / 2;
+	outData.QDCl = debugData.pulseQDC[0];
+	outData.QDCr = debugData.pulseQDC[1];
 	outData.barQDC = std::sqrt(debugData.pulseQDC[0] * debugData.pulseQDC[1]);
 	outData.barMaxADC = std::sqrt(abs(debugData.pulseMax[0]) * abs(debugData.pulseMax[1]));
 	outData.photonComX = (debugData.photonDetComX[0] + debugData.photonDetComX[1]) / 2;

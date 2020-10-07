@@ -130,6 +130,9 @@ public:
 	double lightBalance;	  ///< Ratio of the difference of left and right TQDC to the sum of left and right TQDC
 	double photonDetEff;	  ///< Ratio of optical photons detected by a PMT to the total number of photons generated
 	double barTOF;			  ///< Average of the left and right dynode light pulse phases computed using PolyCFD (in ns)
+
+	double QDCl;              ///< QDC of left VANDLE PMT
+	double QDCr;              ///< QDC of right VANDLE PMT
 	double barQDC;			  ///< Average of the left and right dynode light pulse integrals
 	double barMaxADC;		  ///< Average of the left and right dynode light pulse maxima (in ADC channels)
 	double photonComX;		  ///< Average of the left and right photon center-of-mass X position (in mm)
@@ -158,6 +161,8 @@ public:
 	  * @param photonDetEff_ Ratio of optical photons detected by a PMT to the total number of photons generated
 	  * @param barTOF_ Average of the left and right dynode light pulse phases computed using PolyCFD (in ns)
 	  * @param barQDC_ Average of the left and right dynode light pulse integrals
+	  * @param QDCl_
+	  * @param QDCr_
 	  * @param barMaxADC_ Average of the left and right dynode light pulse maxima (in ADC channels)
 	  * @param photonComX_ Average of the left and right photon center-of-mass X position (in mm)
 	  * @param photonComY_ Average of the left and right photon center-of-mass Y position (in mm)
@@ -166,7 +171,7 @@ public:
 	  * @param photonComCol_ Segmented PMT anode column corresponding to the photon center-of-mass for the left and right PMT
 	  * @param photonComRow_ Segmented PMT anode row corresponding to the photon center-of-mass for the left and right PMT
 	  */
-	void SetValues(const unsigned int &nPhotonsTot_, const unsigned int &nPhotonsDet_, const double &lightBalance_, const double &photonDetEff_, const double &barTOF_, const double &barQDC_, const double &barMaxADC_, const double &photonComX_, const double &photonComY_, const double &reconComX_, const double &reconComY_, const short &photonComCol_, const short &photonComRow_);
+	void SetValues(const unsigned int &nPhotonsTot_, const unsigned int &nPhotonsDet_, const double &lightBalance_, const double &photonDetEff_, const double &barTOF_, const double &barQDC_, const double &barMaxADC_, const double &photonComX_, const double &photonComY_, const double &reconComX_, const double &reconComY_, const short &photonComCol_, const short &photonComRow_, const double &QDCl_, const double &QDCr_);
 
 	/** Push back with data
 	  */
@@ -306,7 +311,10 @@ public:
 	std::vector<double> lightBalance;	   ///< Ratio of the difference of left and right TQDC to the sum of left and right TQDC
 	std::vector<double> photonDetEff;	   ///< Ratio of optical photons detected by a PMT to the total number of photons generated
 	std::vector<double> barTOF;			   ///< Average of the left and right dynode light pulse phases computed using PolyCFD (in ns)
+
 	std::vector<double> barQDC;			   ///< Average of the left and right dynode light pulse integrals
+	std::vector<double> QDCl;	
+	std::vector<double> QDCr;	
 	std::vector<double> barMaxADC;		   ///< Average of the left and right dynode light pulse maxima (in ADC channels)
 	std::vector<double> photonComX;		   ///< Average of the left and right photon center-of-mass X position (in mm)
 	std::vector<double> photonComY;		   ///< Average of the left and right photon center-of-mass Y position (in mm)
@@ -356,6 +364,8 @@ public:
 	  * @param photonDetEff_ Ratio of optical photons detected by a PMT to the total number of photons generated
 	  * @param barTOF_ Average of the left and right dynode light pulse phases computed using PolyCFD (in ns)
 	  * @param barQDC_ Average of the left and right dynode light pulse integrals
+	  * @param QDCl_
+	  * @param QDCr_
 	  * @param barMaxADC_ Average of the left and right dynode light pulse maxima (in ADC channels)
 	  * @param photonComX_ Average of the left and right photon center-of-mass X position (in mm)
 	  * @param photonComY_ Average of the left and right photon center-of-mass Y position (in mm)
@@ -365,7 +375,7 @@ public:
 	  * @param photonComRow_ Segmented PMT anode row corresponding to the photon center-of-mass for the left and right PMT
 	  * @param detID_ ID of the detector which fired
 	  */
-	void Append(const unsigned int &nPhotonsTot_, const unsigned int &nPhotonsDet_, const double &lightBalance_, const double &photonDetEff_, const double &barTOF_, const double &barQDC_, const double &barMaxADC_, const double &photonComX_, const double &photonComY_, const double &reconComX_, const double &reconComY_, const short &photonComCol_, const short &photonComRow_, const short &detID_);
+	void Append(const unsigned int &nPhotonsTot_, const unsigned int &nPhotonsDet_, const double &lightBalance_, const double &photonDetEff_, const double &barTOF_, const double &barQDC_, const double &barMaxADC_, const double &photonComX_, const double &photonComY_, const double &reconComX_, const double &reconComY_, const short &photonComCol_, const short &photonComRow_, const short &detID_, const double &QDCl, const double &QDCr);
 
 	/** Push back with data from a nDetOutputStructure object
 	  * @param output nDetOutputStructure object containing simulation variables for a single detector

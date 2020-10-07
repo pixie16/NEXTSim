@@ -710,8 +710,8 @@ void nDetMaterials::defineScintillators()
 
 	G4double photonEnergy_Ej200_2[2] = {2.004 * eV, 3.191 * eV};
 	G4double RefIndex_EJ200[2] = {1.580, 1.580};
-	G4double Absorption_EJ200[2] = {400 * cm, 400 * cm};
-	//G4double Absorption_EJ200[2] = {180 * cm, 180 * cm};
+	//G4double Absorption_EJ200[2] = {400 * cm, 400 * cm};
+	G4double Absorption_EJ200[2] = {45 * cm, 45 * cm};
 
 	fEJ200MPT = new G4MaterialPropertiesTable();
 	fEJ200MPT->AddProperty("RINDEX", photonEnergy_Ej200_2, RefIndex_EJ200, 2);

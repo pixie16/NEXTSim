@@ -815,8 +815,8 @@ void nDetParticleSource::setBeamProfile(G4SingleParticleSource *src)
 		pos->SetBeamSigmaInX(beamspot * fwhm2stddev);
 		pos->SetBeamSigmaInY(beamspot0 * fwhm2stddev);
 	}
-	//pos->SetCentreCoords(G4ThreeVector(0, 0, -4.0 * cm)); // RIKEN SETUP
-	pos->SetCentreCoords(G4ThreeVector(0, 0, 0)); //FDSI
+	pos->SetCentreCoords(G4ThreeVector(0, 0, -4.0 * cm)); // RIKEN SETUP
+	//pos->SetCentreCoords(G4ThreeVector(0, 0, 0)); //FDSI
 												  //pos->SetCentreCoords(G4ThreeVector(100.0 * cm, 0.0 * cm, 0.0));
 }
 
