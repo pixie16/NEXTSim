@@ -561,8 +561,8 @@ void nDetMaterials::defineMaterials(){
     fEsrOpSurf = new G4OpticalSurface("EsrSurface");
     fEsrOpSurf->SetType(dielectric_LUT);
     fEsrOpSurf->SetModel(LUT);    
-    //fEsrOpSurf->SetFinish(polishedvm2000air);
-    fEsrOpSurf->SetFinish(polishedvm2000glue);
+    fEsrOpSurf->SetFinish(polishedvm2000air);
+    //fEsrOpSurf->SetFinish(polishedvm2000glue);
     fEsrOpSurf->SetMaterialPropertiesTable(fEsrMPT);
 
 	fPerfectMPT = new G4MaterialPropertiesTable();
