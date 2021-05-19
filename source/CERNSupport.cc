@@ -89,11 +89,11 @@ void CERNSupport::Place(G4RotationMatrix *pRot,
 	                   0, 
 	                   0 ); 
    //G4ThreeVector offset = G4ThreeVector(0, 0, 0);
-   std::string file1 = "/home/jheidema/opt/NEXTSim/STL_export/VerticalFrame.stl";
+   std::string file1 = "/ARCHIVE/Ddata/geant4_stl/vandle/isolde/VerticalFrame.stl";
    CADMesh * rebMesh = new CADMesh((char*)file1.c_str());
    rebMesh->SetScale(cm);
 
-   //CADMesh* rebMesh = new CADMesh("/home/jheidema/opt/NEXTSim/STL_export/VerticalFrame.stl", cm, offset, false);
+   //CADMesh* rebMesh = new CADMesh("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/VerticalFrame.stl", cm, offset, false);
    G4VSolid* ribSolid =  rebMesh->TessellatedMesh();
    G4LogicalVolume* ribLogic = new G4LogicalVolume(ribSolid, frameMaterial, "CERNRrameRib");
    ribLogic->SetVisAttributes(argSupportVisAtt);

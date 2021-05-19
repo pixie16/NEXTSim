@@ -74,7 +74,7 @@ G4VPhysicalVolume* CloverQuadBuchDetector::Construct()
     // Detector Construction
     //
     // Meshing
-    mesh_Capsule	= new CADMesh(const_cast<char*>("/home/jheidema/opt/NEXTSim/STL_export/Clover_Bucharest_RefFace/Clover_Assembly_Bucharest_RefModif_Capsule_Bucharest_redesigned_1.stl"),       mm,  G4ThreeVector( 0*cm, 0*cm, 0*cm), false);
+    mesh_Capsule	= new CADMesh(const_cast<char*>("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/Clover_Bucharest_RefFace/Clover_Assembly_Bucharest_RefModif_Capsule_Bucharest_redesigned_1.stl"),       mm,  G4ThreeVector( 0*cm, 0*cm, 0*cm), false);
     Capsule_sol		= mesh_Capsule->TessellatedMesh();
 
     // Logical Volume

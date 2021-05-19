@@ -108,8 +108,8 @@ G4VPhysicalVolume* IS530_Chamber::Construct()
     // Detector Construction
     //
     vector<char* > IS530_Chamber_name;
-    IS530_Chamber_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/Bucharest_Chamber/Bucharest_Chamber_IS530_capac_leon.stl");
-    IS530_Chamber_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/Bucharest_Chamber/Bucharest_Chamber_IS530_incinta_leon.stl");
+    IS530_Chamber_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/Bucharest_Chamber/Bucharest_Chamber_IS530_capac_leon.stl");
+    IS530_Chamber_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/Bucharest_Chamber/Bucharest_Chamber_IS530_incinta_leon.stl");
 
     // Meshing and Logical Volumes
     for(int i = 0; i<IS530_Chamber_name.size(); i++){ 

@@ -97,27 +97,27 @@ G4VPhysicalVolume* Polyhedron::Construct()
     vector<char* > Polyhedron_name;
     
     /*  */
-    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_hexagon_64.stl");
-//    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_hexagon_65.stl");
-    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_hexagon_66.stl");
-    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_hexagon_70.stl");
-//    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_hexagon_71.stl");
-    //Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_hexagon_72.stl");
+    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_hexagon_64.stl");
+//    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_hexagon_65.stl");
+    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_hexagon_66.stl");
+    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_hexagon_70.stl");
+//    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_hexagon_71.stl");
+    //Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_hexagon_72.stl");
     
     
-//    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_hexagon_74.stl");
-//    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_hexagon_75.stl");
-    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_hexagon_76.stl");
-    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_hexagon_79.stl");
+//    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_hexagon_74.stl");
+//    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_hexagon_75.stl");
+    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_hexagon_76.stl");
+    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_hexagon_79.stl");
     
     
-//    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_hexagon_80.stl");
-//    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_hexagon_81.stl");
-    //Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_hexagon_82.stl");
+//    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_hexagon_80.stl");
+//    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_hexagon_81.stl");
+    //Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_hexagon_82.stl");
     
     
     
-    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_hexagon_83.stl");
+    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_hexagon_83.stl");
     
     
     //**************************************
@@ -125,144 +125,144 @@ G4VPhysicalVolume* Polyhedron::Construct()
     
     
     
-//    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_hexagon_85.stl");
-//    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_hexagon_89.stl");
-//    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_hexagon_91.stl");
-//    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_hexagon_92.stl");
-    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_octogon_66.stl");
-//    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_octogon_67.stl");
-    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_octogon_69.stl");
-//    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_octogon_70.stl");
-    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_octogon_73.stl");
-//    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_octogon_74.stl");
-//    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_octogon_76.stl");
-    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_octogon_77.stl");
-//    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_octogon_78.stl");
-//    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_octogon_79.stl");
-//    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_octogon_83.stl");
-//    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_octogon_87.stl");
-    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_octogon_88.stl");
-//    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_octogon_97.stl");
-    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_patrat_63.stl");
-//    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_patrat_64.stl");
-    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_patrat_67.stl");
-//    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_patrat_68.stl");
-//    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_patrat_69.stl");
-//    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_patrat_72.stl");
-//    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_patrat_73.stl");
-//    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_patrat_74.stl");
-    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_patrat_75.stl");
-    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_patrat_76.stl");
-//    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_patrat_77.stl");
+//    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_hexagon_85.stl");
+//    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_hexagon_89.stl");
+//    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_hexagon_91.stl");
+//    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_hexagon_92.stl");
+    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_octogon_66.stl");
+//    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_octogon_67.stl");
+    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_octogon_69.stl");
+//    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_octogon_70.stl");
+    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_octogon_73.stl");
+//    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_octogon_74.stl");
+//    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_octogon_76.stl");
+    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_octogon_77.stl");
+//    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_octogon_78.stl");
+//    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_octogon_79.stl");
+//    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_octogon_83.stl");
+//    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_octogon_87.stl");
+    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_octogon_88.stl");
+//    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_octogon_97.stl");
+    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_patrat_63.stl");
+//    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_patrat_64.stl");
+    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_patrat_67.stl");
+//    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_patrat_68.stl");
+//    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_patrat_69.stl");
+//    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_patrat_72.stl");
+//    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_patrat_73.stl");
+//    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_patrat_74.stl");
+    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_patrat_75.stl");
+    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_patrat_76.stl");
+//    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_patrat_77.stl");
 
 
 //****************************************************************
 
-    //Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_patrat_78.stl");   
-    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_patrat_79.stl"); 
-    //Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_patrat_80.stl");   
-//    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_patrat_81.stl");
-    //Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_patrat_82.stl");
-    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_patrat_83.stl");   
-//    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_patrat_84.stl");
-    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_patrat_85.stl");
-    //Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_patrat_86.stl");    
-    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_patrat_87.stl");
+    //Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_patrat_78.stl");   
+    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_patrat_79.stl"); 
+    //Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_patrat_80.stl");   
+//    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_patrat_81.stl");
+    //Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_patrat_82.stl");
+    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_patrat_83.stl");   
+//    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_patrat_84.stl");
+    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_patrat_85.stl");
+    //Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_patrat_86.stl");    
+    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_patrat_87.stl");
     
  
  
  
  
     
-//    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_patrat_88.stl");
-//    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_patrat_90.stl");
-//    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_patrat_93.stl");
-//    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_patrat_94.stl");
-//    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_patrat_95.stl");
-//    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_patrat_96.stl");
-    //Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_capac_circular_100.stl");
-   // Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_capac_circular_101.stl");
+//    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_patrat_88.stl");
+//    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_patrat_90.stl");
+//    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_patrat_93.stl");
+//    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_patrat_94.stl");
+//    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_patrat_95.stl");
+//    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_patrat_96.stl");
+    //Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_capac_circular_100.stl");
+   // Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_capac_circular_101.stl");
 
 
-//    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_capac_circular_102.stl");
-//    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_capac_circular_103.stl");
-//    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_capac_circular_104.stl");
-//    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_capac_circular_105.stl");
-//    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_capac_circular_88.stl");
-//    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_capac_circular_89.stl");
-//    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_capac_circular_90.stl");
-//    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_capac_circular_91.stl");
-//    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_capac_circular_92.stl");
+//    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_capac_circular_102.stl");
+//    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_capac_circular_103.stl");
+//    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_capac_circular_104.stl");
+//    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_capac_circular_105.stl");
+//    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_capac_circular_88.stl");
+//    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_capac_circular_89.stl");
+//    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_capac_circular_90.stl");
+//    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_capac_circular_91.stl");
+//    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_capac_circular_92.stl");
 
 
     //front cap
-    //Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_capac_circular_93.stl");
-    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_capac_circular_94.stl");
-    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_capac_circular_95.stl");
-    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_capac_circular_96.stl");
+    //Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_capac_circular_93.stl");
+    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_capac_circular_94.stl");
+    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_capac_circular_95.stl");
+    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_capac_circular_96.stl");
     
     
     
-    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_capac_circular_98.stl"); 
+    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_capac_circular_98.stl"); 
     
     //front cap   
-    //Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_capac_circular_99.stl");
+    //Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_capac_circular_99.stl");
     
     
     
     
     
     
-//    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_flansa_prindere_detector_patrat_103.stl");
-//    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_flansa_prindere_detector_patrat_104.stl");
-//    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_flansa_prindere_detector_patrat_107.stl");
-//    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_flansa_prindere_detector_patrat_109.stl");
-//    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_flansa_prindere_detector_patrat_110.stl");
-//    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_flansa_prindere_detector_patrat_113.stl");
-//    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_flansa_prindere_detector_patrat_119.stl");
-//    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_flansa_prindere_detector_patrat_131.stl");
-//    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_flansa_prindere_detector_patrat_132.stl");
-//    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_flansa_prindere_detector_patrat_141.stl");
-//    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_flansa_prindere_detector_patrat_97.stl");
-//    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_flansa_prindere_detector_patrat_98.stl");
-//    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_flansa_intermediara_detector_patrat_102.stl");
-//    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_flansa_intermediara_detector_patrat_103.stl");
-//    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_flansa_intermediara_detector_patrat_106.stl");
-//    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_flansa_intermediara_detector_patrat_108.stl");
-//    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_flansa_intermediara_detector_patrat_109.stl");
-//    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_flansa_intermediara_detector_patrat_112.stl");
-//    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_flansa_intermediara_detector_patrat_118.stl");
-//    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_flansa_intermediara_detector_patrat_130.stl");
-//    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_flansa_intermediara_detector_patrat_131.stl");
-//    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_flansa_intermediara_detector_patrat_140.stl");
-//    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_flansa_intermediara_detector_patrat_96.stl");
-//    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_flansa_intermediara_detector_patrat_97.stl");
+//    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_flansa_prindere_detector_patrat_103.stl");
+//    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_flansa_prindere_detector_patrat_104.stl");
+//    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_flansa_prindere_detector_patrat_107.stl");
+//    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_flansa_prindere_detector_patrat_109.stl");
+//    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_flansa_prindere_detector_patrat_110.stl");
+//    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_flansa_prindere_detector_patrat_113.stl");
+//    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_flansa_prindere_detector_patrat_119.stl");
+//    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_flansa_prindere_detector_patrat_131.stl");
+//    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_flansa_prindere_detector_patrat_132.stl");
+//    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_flansa_prindere_detector_patrat_141.stl");
+//    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_flansa_prindere_detector_patrat_97.stl");
+//    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_flansa_prindere_detector_patrat_98.stl");
+//    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_flansa_intermediara_detector_patrat_102.stl");
+//    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_flansa_intermediara_detector_patrat_103.stl");
+//    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_flansa_intermediara_detector_patrat_106.stl");
+//    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_flansa_intermediara_detector_patrat_108.stl");
+//    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_flansa_intermediara_detector_patrat_109.stl");
+//    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_flansa_intermediara_detector_patrat_112.stl");
+//    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_flansa_intermediara_detector_patrat_118.stl");
+//    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_flansa_intermediara_detector_patrat_130.stl");
+//    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_flansa_intermediara_detector_patrat_131.stl");
+//    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_flansa_intermediara_detector_patrat_140.stl");
+//    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_flansa_intermediara_detector_patrat_96.stl");
+//    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_flansa_intermediara_detector_patrat_97.stl");
 
 
 
-    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_flansa_fixa_pe_prisma_2_114.stl");
+    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_flansa_fixa_pe_prisma_2_114.stl");
     
    
-//    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_flansa_fixa_pe_prisma_2_115.stl");
+//    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_flansa_fixa_pe_prisma_2_115.stl");
 
-    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_flansa_fixa_pe_prisma_2_118.stl");
+    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_flansa_fixa_pe_prisma_2_118.stl");
     
     
     
     
-//    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_flansa_fixa_pe_prisma_2_119.stl");
-//    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_flansa_fixa_pe_prisma_2_122.stl");
-//    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_flansa_fixa_pe_prisma_2_123.stl");
-//    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_flansa_fixa_pe_prisma_2_124.stl");
-//    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_flansa_fixa_pe_prisma_2_126.stl");
-//    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_flansa_fixa_pe_prisma_2_127.stl");
-//    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_flansa_fixa_pe_prisma_2_128.stl");
+//    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_flansa_fixa_pe_prisma_2_119.stl");
+//    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_flansa_fixa_pe_prisma_2_122.stl");
+//    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_flansa_fixa_pe_prisma_2_123.stl");
+//    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_flansa_fixa_pe_prisma_2_124.stl");
+//    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_flansa_fixa_pe_prisma_2_126.stl");
+//    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_flansa_fixa_pe_prisma_2_127.stl");
+//    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_flansa_fixa_pe_prisma_2_128.stl");
 
 
 
     //pices around Ge
-    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_flansa_fixa_pe_prisma_2_132.stl");  
-    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_flansa_fixa_pe_prisma_2_136.stl");
+    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_flansa_fixa_pe_prisma_2_132.stl");  
+    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_flansa_fixa_pe_prisma_2_136.stl");
     
     
     
@@ -270,30 +270,30 @@ G4VPhysicalVolume* Polyhedron::Construct()
     
     
     
-//    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_talpa1_28.stl");
-//    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_talpa_23.stl");
-//    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_talpa_53.stl");
+//    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_talpa1_28.stl");
+//    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_talpa_23.stl");
+//    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_talpa_53.stl");
 
 
 
-    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_Placa_suport_polietru1_4.stl");
+    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_Placa_suport_polietru1_4.stl");
     
     
     
-//    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_disc_5.stl");
-//    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_disc_7.stl");
-//    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/IDS_5_disc_9.stl");
-//    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/");
-//    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/");
-//    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/");
-//    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/");
-//    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/");
-//    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/");
-//    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/");
-//    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/");
-//    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/");
-//    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/");
-//    Polyhedron_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/IDS_5/");
+//    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_disc_5.stl");
+//    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_disc_7.stl");
+//    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/IDS_5_disc_9.stl");
+//    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/");
+//    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/");
+//    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/");
+//    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/");
+//    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/");
+//    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/");
+//    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/");
+//    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/");
+//    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/");
+//    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/");
+//    Polyhedron_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/IDS_5/");
 
     // Meshing and Logical Volumes
     for(int i = 0; i<Polyhedron_name.size(); i++){ 

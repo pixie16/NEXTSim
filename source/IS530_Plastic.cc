@@ -104,10 +104,11 @@ G4VPhysicalVolume* IS530_Plastic::Construct()
     // Detector Construction
     //
     vector<char* > IS530_Plastic_name;
-    IS530_Plastic_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/Bucharest_Plastic/Bucharest_Plastic.stl");
-    //IS530_Plastic_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/Bucharest_Plastic/Bucharest_Plastic_back.stl");
-    IS530_Plastic_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/Bucharest_Plastic/Bucharest_Plastic_holders.stl");
-    IS530_Plastic_name.push_back("/home/jheidema/opt/NEXTSim/STL_export/Bucharest_Plastic/Tape.stl");
+
+    IS530_Plastic_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/Bucharest_Plastic/Bucharest_Plastic.stl");
+    IS530_Plastic_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/Bucharest_Plastic/Bucharest_Plastic_back.stl");
+    IS530_Plastic_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/Bucharest_Plastic/Bucharest_Plastic_holders.stl");
+    IS530_Plastic_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/Bucharest_Plastic/Tape.stl");
     
     // Meshing and Logical Volumes
     for(int i = 0; i<IS530_Plastic_name.size(); i++){ 
