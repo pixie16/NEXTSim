@@ -43,7 +43,7 @@ class primaryTrackInfo{
 
 	G4int copyNum; ///< Copy number of object inside which the scatter event occured
 	G4int trackID; ///< Geant track ID of the primary particle track
-	G4int atomicMass; ///< Atomic mass of the recoiling particle after the scatter event (NOT WORKING)
+	G4double atomicMass; ///< Atomic mass of the recoiling particle after the scatter event (NOT WORKING)
 	
 	G4bool inScint; ///< Flag indicating that the scatter event occured in a scintillator material
 
@@ -128,6 +128,11 @@ class nDetRunAction : public G4UserRunAction
 	/** Enable or disable copying of debug variables to output debug data structure
 	  */
 	void setOutputDebug(const bool &enabled){ outputDebug = enabled; }
+
+	/** Enable or disable copying of certain debug variables to multi detector data structure
+	  */
+	void setOutputMultiDebug(const bool &enabled){ outputMultiDebug = enabled; }
+
 
 	/** Toggle the verbosity flag and return its state
 	  */
@@ -237,6 +242,7 @@ class nDetRunAction : public G4UserRunAction
 	
 	bool outputTraces; ///< Flag indicating that traces will be written to the output tree
 	bool outputDebug; ///< Flag indicating that the user has requested low-level debug to be written to the output file
+	bool outputMultiDebug; ///< Flag indicating reduced debug readout when using multiple detectors
 	bool verbose; ///< Verbosity flag
 
 	nDetEventAction *eventAction; ///< Pointer to the thread-local user event action

@@ -2,7 +2,6 @@
 # create empty scene
 #
 
-/nDet/detector/addGeometry module
 
 # Use a GDML file for the light guides.
 # NOTE: This MUST be done BEFORE calling '/nDet/detector/update'
@@ -50,7 +49,8 @@
 
 # Set the position and rotation of the detector in the lab frame.
 /nDet/detector/setCylindrical 100 0 0
-/nDet/detector/setRotation 0 0 90
+#/nDet/detector/setRotation 0 0 90
+/nDet/detector/addGeometry module
 
 # Update the detector.
 /nDet/detector/update
@@ -101,7 +101,7 @@
 # Available source types: 137Cs 60Co 133Ba 241Am 90Sr 252Cf
 #/nDet/source/type 252Cf
 
-/nDet/source/type neutron 0.5
+/nDet/source/type neutron 1.5
 #/nDet/source/beam gamma 0.25
 #/nDet/source/beam 137Cs
 #/nDet/source/beam gamma 0.03
@@ -115,7 +115,7 @@
 #/nDet/source/position 0.1 0 -13.5 cm
 #/nDet/source/direction 0 90 0 
 
-#/nDet/source/iso true
+/nDet/source/iso 1
 
 #/nDet/source/range 1.175 1.225 0
 
@@ -123,4 +123,4 @@
 # RUN CONTROL #
 ###############
 
-/run/beamOn 10000
+#/run/beamOn 10000

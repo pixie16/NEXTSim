@@ -11,9 +11,9 @@
 //R. Lica on 01.03.2016 - Fixed the G4Transform3D bug, removed det_env
 
 #include "CloverSingleDetector.hh"
-#include "CloverSingleHit.hh"
+//#include "CloverSingleHit.hh"
 #include "CloverQuadDetector.hh"
-#include "CloverSingleSD.hh"
+//#include "CloverSingleSD.hh"
 #include "CADMesh.hh"
 #include "G4SystemOfUnits.hh"
 #include "G4NistManager.hh"
@@ -31,12 +31,12 @@ CloverQuadDetector::CloverQuadDetector(G4VPhysicalVolume* p_mother,
                                        G4int p_cl_nb)
   :mother(p_mother), rho(p_rho), theta(p_theta), phi(p_phi), spin(p_spin), cl_nb(p_cl_nb)
 {
-	G4cout	<<"\nClover Quad (KU Leuven) DETECTOR#######################\n"	<<flush
-		<<"\nRho =\t\t"		<<rho/mm	<< " mm"	<<flush
-		<<"\nTheta =\t\t"	<<theta/deg	<< " deg" 	<<flush
-		<<"\nPhi =\t\t"		<<phi/deg	<< " deg"       <<flush
-		<<"\nSpin =\t\t"	<<spin/deg	<< " deg"       <<flush
-		<<"\nCloverNb =\t"	<<cl_nb 			<<G4endl;
+	//G4cout	<<"\nClover Quad (KU Leuven) DETECTOR#######################\n"	<<flush
+	//	<<"\nRho =\t\t"		<<rho/mm	<< " mm"	<<flush
+	//	<<"\nTheta =\t\t"	<<theta/deg	<< " deg" 	<<flush
+	//	<<"\nPhi =\t\t"		<<phi/deg	<< " deg"       <<flush
+	//	<<"\nSpin =\t\t"	<<spin/deg	<< " deg"       <<flush
+	//	<<"\nCloverNb =\t"	<<cl_nb 			<<G4endl;
 }
 
 CloverQuadDetector::~CloverQuadDetector()

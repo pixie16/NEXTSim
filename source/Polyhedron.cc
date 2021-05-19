@@ -22,11 +22,11 @@ using namespace std;
 Polyhedron::Polyhedron(G4VPhysicalVolume* p_mother, G4double p_rho, G4double p_theta, G4double p_phi, G4double p_spin)
   :mother(p_mother), rho(p_rho), theta(p_theta), phi(p_phi), spin(p_spin)
 {
-	G4cout	<<"\nPolyhedron Frame (OSIRIS) #######################\n"	<<flush
-		<<"\nRho =\t\t"		<<rho/mm	<< " mm"	<<flush
-		<<"\nTheta =\t\t"	<<theta/deg	<< " deg" 	<<flush
-		<<"\nPhi =\t\t"		<<phi/deg	<< " deg"       <<flush
-		<<"\nSpin =\t\t"	<<spin/deg	<< " deg"       <<flush<<G4endl;
+	//G4cout	<<"\nPolyhedron Frame (OSIRIS) #######################\n"	<<flush
+	//	<<"\nRho =\t\t"		<<rho/mm	<< " mm"	<<flush
+	//	<<"\nTheta =\t\t"	<<theta/deg	<< " deg" 	<<flush
+	//	<<"\nPhi =\t\t"		<<phi/deg	<< " deg"       <<flush
+	//	<<"\nSpin =\t\t"	<<spin/deg	<< " deg"       <<flush<<G4endl;
 }
 
 Polyhedron::~Polyhedron()
@@ -298,7 +298,7 @@ G4VPhysicalVolume* Polyhedron::Construct()
     // Meshing and Logical Volumes
     for(int i = 0; i<Polyhedron_name.size(); i++){ 
     //for(int i = 0; i<1; i++){ 
-      G4cout<< Polyhedron_name.at(i) << G4endl;
+      //G4cout<< Polyhedron_name.at(i) << G4endl;
       //mesh_Polyhedron_current.push_back( new CADMesh(const_cast<char*>(Polyhedron_name.at(i)), mm, G4ThreeVector(109.41*cm, 42.58*cm, -50.305*cm), false));
       mesh_Polyhedron_current.push_back( new CADMesh(Polyhedron_name.at(i), mm, G4ThreeVector(109.41*cm, 42.58*cm, -50.305*cm), false));
       //G4cout << "mesh_Polyhedron_current" << G4endl;

@@ -22,7 +22,7 @@ using namespace std;
 Tape::Tape(G4VPhysicalVolume* p_mother)
   :mother(p_mother)
 {
-	G4cout	<<"\nTape  #######################\n"	<<flush;
+	//G4cout	<<"\nTape  #######################\n"	<<flush;
 }
 
 Tape::~Tape()

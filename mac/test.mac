@@ -5,10 +5,10 @@
 ################
 
 # Set the output filename prefix
-/nDet/output/filename VANDLE_IDS_1MeV.root
-/nDet/output/title Full run with 26 bar array (45,135 deg) and all IDS elements (1.0 MeV, mylar wrapping, pure iso)
+/nDet/output/filename singlebar_barTOF_test.root
+/nDet/output/title 1 bar 1.0 MeV esr wrapping pseudo iso
 
-#/nDet/output/debug true
+/nDet/output/debug true
 
 # Setup information about the PMT response
 /nDet/output/trace/setRisetime 2
@@ -20,8 +20,8 @@
 
 # Setup the PMT light pulse output
 /nDet/output/trace/setTraceDelay 60
-/nDet/output/trace/setTraceLength 500
-/nDet/output/trace/setBitRange 16
+/nDet/output/trace/setTraceLength 700
+/nDet/output/trace/setBitRange 12
 
 /nDet/output/trace/setCfdFraction 0.5
 /nDet/output/trace/setIntegralLow 5
@@ -41,24 +41,22 @@
 ########## Must Have's ###############
 /nDet/detector/setMylarThickness 0.025
 /nDet/detector/setGreaseThickness 1
-/nDet/detector/setWrapping mylar
+/nDet/detector/setWrapping esr
 /nDet/detector/setWindowThickness 1.0
 ######################################
 
 /nDet/detector/setDetectorLength 120.0
-/nDet/detector/setDetectorWidth 3.0
-/nDet/detector/setDetectorThickness 50.0
+/nDet/detector/setDetectorWidth 5.0
+/nDet/detector/setDetectorThickness 30.0
 /nDet/detector/setPmtDimensions 30.0
 
-/nDet/detector/setPosition 100 0 0 cm
-/nDet/detector/setRotation 0 0 0
+#/nDet/detector/addArray rectangle 105 45 135 26
 
-/nDet/detector/addArray rectangle 105 45 135 26
-#/nDet/detector/addGeometry rectangle 
+/nDet/detector/setPosition 0 0 100 cm
+/nDet/detector/setRotation 90 0 0
+/nDet/detector/addGeometry rectangle 
+
 /nDet/detector/update
-
-
-
 
 ################
 # SOURCE SETUP #
@@ -71,7 +69,7 @@
 /nDet/source/shape point
 
 # Set isotropic source (0=off, 1=psuedo, 2=realistic)
-/nDet/source/iso 2
+/nDet/source/iso 1
 
 
-/run/beamOn 5000000
+#/run/beamOn 10000

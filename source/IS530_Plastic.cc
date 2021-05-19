@@ -22,11 +22,11 @@ using namespace std;
 IS530_Plastic::IS530_Plastic(G4VPhysicalVolume* p_mother, G4double p_rho, G4double p_theta, G4double p_phi, G4double p_spin)
   :mother(p_mother), rho(p_rho), theta(p_theta), phi(p_phi), spin(p_spin)
 {
-	G4cout	<<"\nIS530_Plastic (Not a sensitive detector) #######################\n"	<<flush
-		<<"\nRho =\t\t"		<<rho/mm	<< " mm"	<<flush
-		<<"\nTheta =\t\t"	<<theta/deg	<< " deg" 	<<flush
-		<<"\nPhi =\t\t"		<<phi/deg	<< " deg"       <<flush
-		<<"\nSpin =\t\t"	<<spin/deg	<< " deg"       <<flush<<G4endl;
+	//G4cout	<<"\nIS530_Plastic (Not a sensitive detector) #######################\n"	<<flush
+	//	<<"\nRho =\t\t"		<<rho/mm	<< " mm"	<<flush
+	//	<<"\nTheta =\t\t"	<<theta/deg	<< " deg" 	<<flush
+	//	<<"\nPhi =\t\t"		<<phi/deg	<< " deg"       <<flush
+	//	<<"\nSpin =\t\t"	<<spin/deg	<< " deg"       <<flush<<G4endl;
 }
 
 IS530_Plastic::~IS530_Plastic()
@@ -104,6 +104,7 @@ G4VPhysicalVolume* IS530_Plastic::Construct()
     // Detector Construction
     //
     vector<char* > IS530_Plastic_name;
+
     IS530_Plastic_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/Bucharest_Plastic/Bucharest_Plastic.stl");
     IS530_Plastic_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/Bucharest_Plastic/Bucharest_Plastic_back.stl");
     IS530_Plastic_name.push_back("/ARCHIVE/Ddata/geant4_stl/vandle/isolde/Bucharest_Plastic/Bucharest_Plastic_holders.stl");

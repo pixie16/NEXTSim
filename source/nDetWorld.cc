@@ -179,7 +179,7 @@ void nDetWorld::BuildCERNElements(){
 	G4double gSpin[8]     = {15,-15,15,-15,0,0,0,0};
 	G4int gLines = 8;
 
-	for(int l=0;l<gLines-1;l++){
+	for(int l=0;l<gLines;l++){
 		
 		if(1==gType[l]){   									// Clover KU
 			clquad_array.push_back(new CloverQuadDetector(	physV,(G4double) gDistance[l]*mm,(G4double) (gTheta[l]*deg),(G4double) (gPhi[l]*deg),(G4double) (gSpin[l]*deg),clquad_array.size()));

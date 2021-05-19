@@ -27,12 +27,12 @@ using namespace std;
 CloverQuadBuchDetector::CloverQuadBuchDetector(G4VPhysicalVolume* p_mother, G4double p_rho, G4double p_theta, G4double p_phi, G4double p_spin, G4int p_cl_nb)
   :mother(p_mother), rho(p_rho), theta(p_theta), phi(p_phi), spin(p_spin), cl_nb(p_cl_nb)
 {
-	G4cout	<<"\nClover Quad (Bucharest) DETECTOR#######################\n"	<<flush
-		<<"\nRho =\t\t"		<<rho/mm	<< " mm"	<<flush
-		<<"\nTheta =\t\t"	<<theta/deg	<< " deg" 	<<flush
-		<<"\nPhi =\t\t"		<<phi/deg	<< " deg"       <<flush
-		<<"\nSpin =\t\t"	<<spin/deg	<< " deg"       <<flush
-		<<"\nCloverNb =\t"	<<cl_nb 			<<G4endl;
+	//G4cout	<<"\nClover Quad (Bucharest) DETECTOR#######################\n"	<<flush
+	//	<<"\nRho =\t\t"		<<rho/mm	<< " mm"	<<flush
+	//	<<"\nTheta =\t\t"	<<theta/deg	<< " deg" 	<<flush
+	//	<<"\nPhi =\t\t"		<<phi/deg	<< " deg"       <<flush
+	//	<<"\nSpin =\t\t"	<<spin/deg	<< " deg"       <<flush
+	//	<<"\nCloverNb =\t"	<<cl_nb 			<<G4endl;
 }
 
 CloverQuadBuchDetector::~CloverQuadBuchDetector()

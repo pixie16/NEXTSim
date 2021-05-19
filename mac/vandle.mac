@@ -2,24 +2,20 @@
 # Cory R Thornsberry
 # Simulates a small, medium, or large VANDLE bar with a 1 MeV beam of neutrons
 
-# Mylar and optical grease thickness.
-/nDet/detector/setMylarThickness 0.025
-/nDet/detector/setGreaseThickness 1
-
 ################
 # OUTPUT SETUP #
 ################
 
 # Set the output filename prefix
-/nDet/output/filename vandle.root
-/nDet/output/title 3x3x60 cm^3 small VANDLE bar with 1 MeV neutron pencil beam at 1 m (wrapped with mylar)
-#/nDet/output/debug true
+/nDet/output/filename vandle_barTOFtest.root
+/nDet/output/title medium VANDLE bar with 1 MeV iso neutron pencil beam at 1 m (wrapped with mylar)
+/nDet/output/debug true
 
 # Setup information about the PMT response
 /nDet/output/trace/setRisetime 2
 /nDet/output/trace/setFalltime 20
 /nDet/output/trace/setTimeSpread 0.35
-/nDet/output/trace/setGain 2E3
+/nDet/output/trace/setGain 1E3
 /nDet/output/trace/setBaseline 7.5
 /nDet/output/trace/setJitter 0.15
 
@@ -36,17 +32,23 @@
 # DETECTOR SETUP #
 ##################
 
+# Mylar and optical grease thickness.
+/nDet/detector/setMylarThickness 0.025
+/nDet/detector/setGreaseThickness 1
+/nDet/detector/setWrapping mylar
+/nDet/detector/setWindowThickness 1.0
+
 # Small VANDLE (3x3x60 cm^3)
-/nDet/detector/setDetectorLength 60.0
-/nDet/detector/setDetectorWidth 3.0
-/nDet/detector/setDetectorThickness 30.0
-/nDet/detector/setPmtDimensions 30.0
+#/nDet/detector/setDetectorLength 60.0
+#/nDet/detector/setDetectorWidth 3.0
+#/nDet/detector/setDetectorThickness 30.0
+#/nDet/detector/setPmtDimensions 30.0
 
 # Medium VANDLE (5x3x120 cm^3)
-#/nDet/detector/setDetectorLength 120.0
-#/nDet/detector/setDetectorWidth 3.0
-#/nDet/detector/setDetectorThickness 50.0
-#/nDet/detector/setPmtDimensions 30.0
+/nDet/detector/setDetectorLength 120.0
+/nDet/detector/setDetectorWidth 3.0
+/nDet/detector/setDetectorThickness 50.0
+/nDet/detector/setPmtDimensions 30.0
 
 # Large VANDLE (5x5x200 cm^3)
 #/nDet/detector/setDetectorLength 200.0
@@ -77,11 +79,11 @@
 #/nDet/source/spot 15
 
 # Set isotropic source (0=off, 1=psuedo, 2=realistic)
-#/nDet/source/iso 1
+/nDet/source/iso 0
 
 ###############
 # RUN CONTROL #
 ###############
 
-#/run/beamOn 10000
+#/run/beamOn 50000
 

@@ -329,6 +329,8 @@ bool nDetParticleSource::ReadEnergyFile(const char *filename){
 		return false;
 	}
 
+	// Set to a neutron
+	GetCurrentSource()->SetParticleDefinition(G4Neutron::NeutronDefinition());  //hard coded for now - JNH
 	G4SPSEneDistribution *ene = GetCurrentSource()->GetEneDist();
 	ene->SetEnergyDisType("Arb");
 	
